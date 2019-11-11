@@ -1,0 +1,26 @@
+{
+  "name": "discord-jwt",
+  "version": "1.0.0",
+  "description": "Discord-JWT is library for user authentication trough Discord Oauth2 API.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-react": "^7.16.0",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
