@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable import/order */
 const DiscordAuth = require('./lib/Oauth2');
 
 const dotenv = require('dotenv');
