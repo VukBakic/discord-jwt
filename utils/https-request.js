@@ -1,7 +1,7 @@
 const https = require('https');
 const querystring = require('querystring');
 
-function httpsRequest(url, method, data) {
+function httpsRequest(url, method, data, header) {
   // eslint-disable-next-line node/no-unsupported-features/node-builtins
   const urlObject = new URL(url);
   const postData = querystring.stringify(data);
@@ -10,7 +10,7 @@ function httpsRequest(url, method, data) {
     path: urlObject.pathname,
     port: 443,
     method: method.toUpperCase(),
-    headers: {
+    headers: header || {
       'Content-Type': 'application/x-www-form-urlencoded',
       'Content-Length': postData.length
     }
